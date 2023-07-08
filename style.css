@@ -1,0 +1,1677 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0 ;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Raleway:wght@100&display=swap');
+  body{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 30%;
+}
+header{
+    width: 100%;
+    height: 55px;
+    background-color: #0000008a;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+   
+    align-items: center;
+    display: flex;
+}
+.corpo_menu{
+   display: flex;
+align-items: center;
+   width: 100%;
+}
+.logo_principal{
+   
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 40px;
+    
+}
+.some{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 70%;
+}
+.espaco_itens{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    
+}
+#item_dest{
+    color: #40B55C;
+}
+
+.espaco_iten{
+    list-style: none;
+    margin-left: 50px;
+    margin-right: 45px;
+    transition: 0.3s ;
+    font-size: 20px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+.itens:hover{
+    color: #40B55C;
+
+}
+
+
+.itens{
+    color: white;
+    transition: 0.3s ;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.actives{
+    color: #40B55C;
+    transition: 0.3s ;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+.hamburguer{
+    display: none;
+    justify-content: flex-end;
+}
+
+
+
+
+/*                                                                           inicio da responsividade                                                                            */
+
+@media (max-width:1560px){
+    .espaco_iten{
+        
+        margin-left: 45px;
+        margin-right: 30px;
+        font-size: 20px;
+    }
+   
+     
+}
+@media (max-width:1490px){
+    .espaco_iten{
+        
+        margin-left: 45px;
+        margin-right: 30px;
+        font-size: 20px;
+    }
+
+}
+@media (max-width:1400px){
+    .espaco_iten{
+        
+        margin-left: 42px;
+        margin-right: 30px;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:1350px){
+   
+     
+    .espaco_iten{
+        
+        margin-left: 40px;
+        margin-right: 30px;
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width:1320px){
+    .espaco_iten{
+        
+        margin-left: 45px;
+        margin-right: 25px;
+        font-size: 20px;
+    }
+   
+
+
+}
+
+@media (max-width:1260px){
+    .espaco_iten{
+        
+        margin-left: 40px;
+        margin-right: 25px;
+        font-size: 18px;
+    }
+
+    
+
+   
+    
+    
+    
+}
+@media (max-width:1200px){
+
+    .espaco_iten{
+        
+        margin-left: 35px;
+        margin-right: 25px;
+        font-size: 18px;
+    }
+}
+@media (max-width:1160px){
+    .espaco_iten{
+        
+        margin-left: 35px;
+        margin-right: 25px;
+        font-size: 18px;
+    }
+}
+@media (max-width:1140px){
+    .espaco_iten{
+        
+        margin-left: 30px;
+        margin-right: 25px;
+        font-size: 18px;
+    }
+}
+@media (max-width:1100px){
+    .espaco_iten{
+        
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 18px;
+    }
+    
+    
+}
+
+@media (max-width:1060px){
+    .espaco_iten{
+        
+        margin-left: 25px;
+        margin-right: 15px;
+        font-size: 18px;
+    }
+}
+@media (max-width:1030px){
+    .espaco_iten{
+        
+        margin-left: 20px;
+        margin-right: 15px;
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:1000px){
+    
+    .espaco_iten{
+        
+        margin-left: 20px;
+        margin-right: 15px;
+        font-size: 16px;
+    }
+    
+    
+}
+
+@media (max-width:900px){
+    .espaco_iten{
+        
+        margin-left: 10px;
+        margin-right: 15px;
+        font-size: 16px;
+    }
+    
+   
+}
+
+@media (max-width:850px){
+    .espaco_iten{
+        
+        margin-left: 10px;
+
+
+        
+        margin-right: 13px; 
+        font-size: 16px;
+        
+    }
+    
+    
+}
+
+
+
+
+@media (max-width:830px){
+    .logo{
+        width: 90%;
+    }
+    .corpo_menu{
+        width: 100%;
+    }
+    .hamburguer{
+        display: block;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .corpo_menu{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    div.hamb{
+        
+      justify-content: end;
+        width: 10%;
+        display: block;
+        margin-right: 20px;
+        
+        
+    }
+    
+    
+
+
+
+
+
+
+    .hamburguer.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+        
+    }
+    
+    .hamburguer.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburguer.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg
+        );
+    }
+
+
+    
+
+    .some{
+        position: fixed;
+        left: 900px;
+        top: 55px;
+        gap: 0;
+        background-color: #0000008a;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        transition: 0.3s;
+        justify-content: center;
+        
+        
+        
+    }
+     
+
+
+      
+      .espaco_iten{
+        padding-left: 20px;
+        font-size: 18px;
+      }
+
+
+
+    
+    
+    
+    
+    .barra{
+        display: block;
+    }
+
+
+
+    .some.active{
+        width: 100%;
+        height: 100px;
+        top: 55px;
+        left: 0px;
+    }
+    
+     
+    
+   
+
+
+
+
+    .some:nth-child(3){
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width:650px){
+    
+      .espaco_iten{
+        margin-right: 0px;
+        margin-left: -2px;
+      }
+      .logo_principal{
+   
+        width: 130px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-left: 40px;
+        
+    }
+
+}
+
+
+@media (max-width:590px){
+.espaco_itens{
+    flex-direction: column;
+    
+}
+
+
+.some.active{
+    height: 200px;
+    
+}
+
+.espaco_iten{
+    padding: 10px;
+    
+}
+}
+
+@media (max-width:560px){
+    .logo_principal{
+   
+        width: 130px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-left: 37px;
+        
+    }
+
+
+}
+@media (max-width:360px){
+
+    
+    .logo{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin-right: 25px;
+    }
+
+}
+/*                                                                fim do topo                                                              */
+
+
+html{
+    scroll-behavior:smooth;
+}
+.bloco_um_dentro_do_outro{
+    width: 2540px;
+        height: 1000px;
+    
+        box-shadow: 0px 30px 200.0px rgb(75, 75, 75);
+    background-image: url(pc_prin1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.3s;
+
+}
+.bloco_um{
+    margin-top: -55px;
+    width: 100%;
+    height: 1000px;
+    background-color: #2C2C2C;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.img_4c{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+.logo_tela{
+    width: 65rem;
+    transition: 0.3s;
+}
+.bloco_dois{
+    width: 100%;
+    height: 5000px;
+    background-color: #2C2C2C;
+    
+}
+.bloco_tres{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(81, 184, 167);
+    
+}
+.bloco_quatro{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(81, 122, 184);
+    
+}
+
+
+
+.logo_tel{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                                       responsividade img prin                                    */
+@media(max-width:1565px){
+    
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 900px;
+        
+        
+        background-image: url(pc_prin1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 900px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 55rem;
+        transition: 0.3s;
+    }
+}
+
+@media(max-width:1200px){
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 900px;
+        
+        
+        background-image: url(pc_prin1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 900px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 50rem;
+        transition: 0.3s;
+    }
+    
+}
+@media(max-width:1150px){
+    
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 890px;
+        
+        
+        background-image: url(pc_prin1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 890px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 45rem;
+        transition: 0.3s;
+    }
+}
+@media(max-width:1100px){
+    
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 900px;
+        
+        
+        background-image: url(pc_prin1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 900px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+@media(max-width:1050px){
+    
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 900px;
+        
+        
+        background-image: url(pc_prin1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 900px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 40rem;
+        transition: 0.3s;
+    }
+}
+@media (max-height:1200px){
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 1180px;
+        
+        
+        background-image: url(pc_prin1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 1180px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 38rem;
+        transition: 0.3s;
+    }
+}
+@media(max-width:1000px){
+    
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 900px;
+        
+        
+        background-image: url(pc_prin1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 900px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width:950px){
+    
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 900px;
+        
+        
+        background-image: url(pc_prin1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 900px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 35rem;
+        transition: 0.3s;
+    }
+}
+
+@media(max-width:720px){
+    .logo_tela{
+        width: 30rem;
+        transition: 0.3s;
+    }
+}
+@media (max-height:1400px){
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 1300px;
+        
+        
+        background-image: url(pc_prin1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 1300px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 38rem;
+        transition: 0.3s;
+    }
+}
+@media (max-height:1180px){
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 1150px;
+        
+        
+        background-image: url(pc_prin1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 1150px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 38rem;
+        transition: 0.3s;
+    }
+}
+@media (max-height:1024px){
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 1000px;
+        
+        
+        background-image: url(pc_prin1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 1000px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 38rem;
+        transition: 0.3s;
+    }
+}
+@media(max-width:650px){
+    
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 800px;
+        
+            box-shadow: 0px 30px 100.0px rgb(0, 0, 0);
+        background-image: url(celular_responsivo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 800px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        
+        width: 25rem;
+        transition: 0.3s;
+    }
+}
+@media(max-width:575px){
+    
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 800px;
+        
+        
+        background-image: url(celular_responsivo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 800px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        
+        width: 25rem;
+        transition: 0.3s;
+    }
+    
+    
+}
+@media(max-width:500px){
+    
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 900px;
+        
+        
+        background-image: url(celular_responsivo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 900px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 20rem;
+        transition: 0.3s;
+    }
+}
+@media (max-height:768px){
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 755px;
+        
+        
+        background-image: url(celular_responsivo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 755px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 18rem;
+        transition: 0.3s;
+    }
+}
+@media (max-height:600px){
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 600px;
+        
+        
+        background-image: url(celular_responsivo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 600px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 18rem;
+        transition: 0.3s;
+    }
+}
+@media(max-width:340px){
+    
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 750px;
+        
+        
+        background-image: url(celular_responsivo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 750px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 15rem;
+        transition: 0.3s;
+    }
+}
+
+@media (max-height:480px){
+    .bloco_um_dentro_do_outro{
+        width: 2540px;
+            height: 475px;
+        
+        
+        background-image: url(celular_responsivo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 475px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 15rem;
+        transition: 0.3s;
+    }
+}
+@media (max-width:246px){
+    bloco_um_dentro_do_outro{
+        width: 100%;
+            height: 475px;
+        
+        
+        background-image: url(celular_responsivo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .bloco_um{
+        margin-top: -55px;
+        width: 100%;
+        height: 475px;
+        background-color: #2C2C2C;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_tela{
+        width: 12rem;
+        transition: 0.3s;
+    }
+    main{
+        width: 246px;
+    }
+    footer{
+        width: 246px;
+    }
+    header{
+        width: 246px;
+    }
+    body{
+        width: 246px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                                   inicio das sections com os cards                                 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                                                            footer                                                                    */
+
+
+
+
+
+
+.dps{
+    display: none;
+}
+.dps_{
+    display: none;
+}
+
+footer{
+    width: 100%;
+    height: 15rem;
+    background-color: #2C2C2C;
+}
+
+.um{
+    width: 100%;
+    height: 85%;
+    background-color: #00000056;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.dois{
+    width: 100%;
+    height: 15%;
+background-color: #40B55C;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+.cep{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+.FONTE_RODA{
+    color: white;
+    
+}
+.en{
+    list-style: none;
+}
+.it{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 50%;
+}
+.att{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.primeiro{
+   
+align-items: center;
+justify-content: center;
+display: flex;
+width: 33%;
+height: 100%;
+}
+
+.dados_topo_um{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  font-size: 15px;
+  margin-top: 10%;
+  display: flex;
+}
+
+.segundo{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_rodape{
+    width: 400px;
+    transition: 0.3s;
+    
+}
+.img_rodape_2{
+    display: none;
+}
+.terceiro{
+    width: 33%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.barra{
+    height: 80%;
+    border-radius: 20px;
+    border-right: 3px solid #0B2311;
+    margin-top: 1%;
+}
+.barra_{
+    height: 80%;
+    border-radius: 20px;
+    border-right: 3px solid #0B2311;
+    margin-top: 1%;
+}
+.estilo{
+    color: white;
+    transition: 0.3s;
+    font-size: 25px;
+    white-space: nowrap;
+    text-decoration: none;
+    padding-left: 3%;
+}
+.estil{
+    color: white;
+    transition: 0.3s;
+    font-size: 20px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.estilos{
+    color: white;
+    transition: 0.3s;
+    font-size: 25px;
+    text-decoration: none;
+    padding-left: 5%;
+}
+
+.estilos:hover{
+    color: #40B55C;
+}
+.estilo:hover{
+    color: #40B55C;
+}
+.actives:hover{
+    color: rgb(179, 176, 176);
+}
+.int{
+    display: flex;
+   margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.instagram{
+    color: white;
+    height: 25px;
+    width: 25px;
+}
+
+.ti{
+    width: 50%;
+    transition: 0.3s;
+}
+
+.t{
+    align-items: center;
+align-items: center;
+    width: 50%;
+    display: flex;
+}
+
+.whatsapp{
+    color: white;
+    height: 33px;
+    width: 33px;
+    
+}
+
+
+
+
+
+
+
+
+/*             responsividade do footer                            */
+
+
+
+
+@media (max-width:1660px){
+    .ti{
+        margin-left: -10%;
+    }
+}
+
+@media (max-width:1560px){
+    .ti{
+        margin-left: -20%;
+    }
+}
+
+@media (max-width:1460px){
+    .ti{
+        margin-left: -30%;
+    }
+}
+
+@media (max-width:1360px){
+    footer{
+        height: 14rem;
+    }
+    .ti{
+        margin-left: -35%;
+    }
+    .img_rodape{
+        width: 350px;
+        
+    }
+    .primeiro{
+        align-items: center;
+        
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    height: 100%;
+    }
+    
+    .estil{
+        color: white;
+        transition: 0.3s;
+        font-size: 20px;
+        white-space:normal;
+        text-decoration: none;
+    }
+    .dois{
+        width: 100%;
+        height: 10%;
+    background-color: #40B55C;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
+    .um{
+        width: 100%;
+        height: 90%;
+        background-color: #00000056;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        transition: 0.3s;
+    }
+    .ti{
+        width: 50%;
+        transition: 0.3s;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .cep{
+        flex-direction: column;
+    }
+    .int{
+        margin-left: -42%;
+    }
+}
+
+@media (max-width:1200px){
+    
+    
+    .img_rodape{
+    
+    width: 325px;
+    }
+    footer{
+        height: 13rem;
+    }
+
+    .um{
+       top: 10%;
+        height: 90%;
+    }
+    .dois{
+        height: 10%;
+    }
+}
+@media (max-width:1150px){
+    .estilo{
+        color: white;
+        transition: 0.3s;
+        font-size: 20px;
+        white-space: nowrap;
+        text-decoration: none;
+        padding-left: 3%;
+    }
+    .estil{
+        color: white;
+        transition: 0.3s;
+        font-size: 15px;
+        
+        text-decoration: none;
+    }
+    .estilos{
+        color: white;
+        transition: 0.3s;
+        font-size: 20px;
+        text-decoration: none;
+        padding-left: 5%;
+    }
+
+}
+@media (max-width:1100px){
+.img_rodape{
+    width: 300px;
+}
+}
+
+@media (max-width:975px){
+    .img_rodape{
+        width: 275px;
+        align-items: center; 
+        margin-left: 1%;
+    }
+    }
+
+
+
+    @media (max-width:900px){
+        .img_rodape{
+            width: 260px;
+            align-items: center; 
+            margin-left: 1%;
+        }
+        }
+        @media (max-width:840px){
+            .img_rodape{
+                width: 240px;
+                align-items: center; 
+                margin-left: 1%;
+            }
+            footer{
+                height: 11rem;
+            }
+
+            }
+
+            @media (max-width:870px){
+                .estilo{
+                    color: white;
+                    transition: 0.3s;
+                    font-size: 18px;
+                    white-space: nowrap;
+                    text-decoration: none;
+                    padding-left: 3%;
+                }
+                .estil{
+                    color: white;
+                    transition: 0.3s;
+                    font-size: 13px;
+                    
+                    text-decoration: none;
+                }
+                .estilos{
+                    color: white;
+                    transition: 0.3s;
+                    font-size: 18px;
+                    text-decoration: none;
+                    padding-left: 5%;
+                }
+                .whatsapp{
+                    color: white;
+                    height: 28px;
+                    width: 28px;
+                    
+                }
+                .instagram{
+                    color: white;
+                    height: 22px;
+                    width: 22px;
+                }
+            }
+
+            @media (max-width:770px){
+
+                .img_rodape{
+                    margin-left: 4%;
+                }
+                footer{
+                    height: 9rem;
+                }
+                .it{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 15px;
+                    width: 50%;
+                }
+            }
+
+            @media (max-width:770px){
+                .img_rodape{
+                    display: none;
+                }
+                .img_rodape_2{
+                    display: block;
+                    width: 60px;
+                    height: 60px;
+                    transition: 0.3s;
+                }
+            }
+
+            @media (max-width:560px){
+                
+                .um{
+                    flex-direction: column; 
+                }
+                .int{
+                    height: 50%;
+                }
+                .att{
+                    height: 50%;
+                   
+                }
+                .img_rodape_2{
+                    display: none;
+                }
+                .dps{
+                    display: block;
+                    border-color: #0B2311;
+                    width: 100%;
+                }
+                footer{
+                    height: 13rem;
+                }
+                .barra{
+                    display: none;
+                }
+                .barra_{
+                    display: none;
+                }
+                .estilos{
+                    white-space: nowrap;
+                    
+                }
+                .cep{
+                    
+                     align-items: center;
+                    justify-content: center;
+                    display: flex;
+                }
+                .estilo{
+                    white-space: nowrap;
+                }
+                .estil{
+                    white-space: nowrap;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                }
+                .barra{
+                    display: none;
+                }
+                .segundo{
+                    display: none;
+                }
+                .barra_{
+                    display: none;
+                }
+            }
+            @media (max-width:360px){
+
+                .it{    font-size: 12px;}
+                
+
+            }
+
